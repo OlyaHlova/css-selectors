@@ -1,0 +1,31 @@
+/*not recomender
+*{
+    font-weight: bold;
+}*/
+
+h1 {
+    color:red;
+}
+
+body {
+    border: solid black;
+
+    }
+
+p {
+    color:brown;
+    margin: 10 px;
+    padding: 20 px;
+}
+#selected {
+    border: solid blue;
+    position:fixed;
+}
+.underline{
+    text-decoration: underline;
+}
+p:hover{
+    color:aquamarine;
+}
+p::first-letter{
+    font-size:2rem; }
